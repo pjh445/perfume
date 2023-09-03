@@ -78,7 +78,7 @@ main p {
 
 /*기타정보*/
 aside {
-	margin:30px 0 20px; padding:20px 10px;
+	margin-top:30px; padding:20px 10px;
 	background:#f0c8eb;
 	text-align:justify;
 	
@@ -93,6 +93,9 @@ footer {
 	color:#555; text-align:center;
 	font-size:0.9rem;
 }
+
+.ui-loader h1 {display:none;}
+
 /* 넓이 0~1000픽셀에 해당됨 */
 @media(max-width:1000px) {
 		#slideArea {height:initial;}
